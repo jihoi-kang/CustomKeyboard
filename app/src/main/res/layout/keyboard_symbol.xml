@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/numpad_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/action_key_1"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_2"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_3"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_4"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_5"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_6"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_7"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_8"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_9"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></include>
+
+        <include
+            android:id="@+id/action_key_0"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></include>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/first_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/action_key_q"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_w"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_e"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_r"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_t"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_y"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_u"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_i"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_o"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </include>
+
+        <include
+            android:id="@+id/action_key_p"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <include
+            android:id="@+id/action_key_a"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_s"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_d"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_f"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_g"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_h"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_j"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_k"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_l"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_other"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/action_key_caps"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8" />
+
+        <include
+            android:id="@+id/action_key_z"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_x"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_c"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_v"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_b"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_n"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_m"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_del"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourth_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/action_key_simbols"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+        <include
+            android:id="@+id/action_key_mode_change"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_rest"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_space"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+
+        <include
+            android:id="@+id/action_key_dot"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/action_key_enter"
+            layout="@layout/keyboard_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+
+</LinearLayout>
